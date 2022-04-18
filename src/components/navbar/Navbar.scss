@@ -25,8 +25,13 @@
             height: 3rem;
             margin: 1rem;
 
-            @media screen and (max-width: 449px) {
-                height: 2.8rem;
+            @media screen and (min-width: 350px) and (max-width: 449px) {
+                height: 2.5rem;
+                margin: 1rem 0;
+            }
+
+            @media screen and (max-width: 349px) {
+                height: 2.3rem;
                 margin: 1rem 0;
             }
         }
