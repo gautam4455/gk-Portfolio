@@ -14,9 +14,15 @@ const Footer = () => {
                     <div className="social">
                         <h3>Find Me On</h3>
                         <div className="social-icons">
-                            <span><a href="mailto:gautam.kamble4455@gmail.com"><AiOutlineGoogle /></a></span>
-                            <span><a href="https://github.com/gautam4455"><AiFillGithub /></a></span>
-                            <span><a href="/"><AiOutlineGlobal /></a></span>
+                            <span>
+                                <a href="mailto:gautam.kamble4455@gmail.com"><AiOutlineGoogle /></a>
+                            </span>
+                            <span>
+                                <a href="https://github.com/gautam4455"><AiFillGithub /></a>
+                            </span>
+                            <span>
+                                <a href="/"><AiOutlineGlobal /></a>
+                            </span>
                         </div>
                     </div>
                 </div>

@@ -5,10 +5,10 @@ import "./Contact.scss";
 
 const Contact = () => {
     const { register, handleSubmit, formState: { errors } } = useForm();
-    // console.log(watch("name"));
+    // console.log(watch("name"));  // get watch from useForm
 
     const submitForm = (data) => {
-        console.log(data);
+        // console.log(data);
         const contactForm = document.querySelector("#contactForm");
         contactForm.reset();
         window.location.reload(false);

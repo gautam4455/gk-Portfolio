@@ -34,7 +34,7 @@
 
 
 /* -------- ScrollTop Button Start -------- */
-#go-to-top {
+#scrollToTop {
     position: fixed;
     right: 3rem;
     bottom: 4rem;
@@ -66,10 +66,10 @@
             font-size: 2rem;
 
             &:hover {
-                animation: gototop 5s infinite linear;
+                animation: scrollToTop 5s infinite linear;
             }
 
-            @keyframes gototop {
+            @keyframes scrollToTop {
                 0% {
                     transform: translate(0, 0);
                 }

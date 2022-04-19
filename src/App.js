@@ -8,7 +8,7 @@ import {
 import Loader from "./components/utility/Loader";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./components/Home";
-import GoToTop from "./components/utility/GoToTop";
+import ScrollToTop from "./components/utility/ScrollToTop";
 import Projects from "./components/projects/Projects.js";
 import Resume from "./components/resume/Resume.js";
 import Contact from "./components/contact/Contact";
@@ -36,13 +36,13 @@ function App() {
 							<Navbar />
 							<div style={{ marginTop: "80px" }}>
 								<Routes>
-									<Route path="/" element={<Home />}></Route>
+									<Route path="/" element={<Home />} />
 									<Route path="/projects" element={<Projects />} />
-									<Route path="/contact" element={<Contact />} />
 									<Route path="/resume" element={<Resume />} />
+									<Route path="/contact" element={<Contact />} />
 								</Routes>
 							</div>
-							<GoToTop />
+							<ScrollToTop />
 							<Footer />
 						</div>
 				}

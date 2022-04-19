@@ -1,8 +1,7 @@
 import React, { Fragment, useEffect, useState } from "react";
-import FlightIcon from '@mui/icons-material/Flight';
+import { MdOutlineFlight } from "react-icons/md";
 
-
-const GoToTop = () => {
+const ScrollToTop = () => {
     const [showTopBtn, setShowTopBtn] = useState(false);
 
     const goToTop = () => {
@@ -29,12 +28,12 @@ const GoToTop = () => {
 
     return (
         <Fragment>
-            <div id="go-to-top" >
+            <div id="scrollToTop" >
                 {
                     showTopBtn
                     &&
                     <button onClick={goToTop}>
-                        <FlightIcon />
+                        <MdOutlineFlight />
                     </button>
                 }
             </div>
@@ -42,4 +41,4 @@ const GoToTop = () => {
     )
 }
 
-export default GoToTop;
+export default ScrollToTop;

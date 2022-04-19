@@ -25,7 +25,7 @@ const TypingText = () => {
 
         const typed = new Typed(element.current, options);
 
-        // Destropying
+        // Destroying
         return () => {
             typed.destroy();
         };
