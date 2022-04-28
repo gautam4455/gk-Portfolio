@@ -4,6 +4,8 @@
     margin: 3rem 0 4rem;
 
     .description {
+        display: flex;
+        align-items: center;
 
         .content {
             flex: 2;
@@ -27,7 +29,7 @@
             }
 
             img {
-                width: fit-content;
+                width: 100%;
                 object-fit: contain;
                 height: 400px;
 

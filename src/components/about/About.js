@@ -11,7 +11,7 @@ const About = () => {
                 <div className="heading">
                     <h1>ABOUT</h1>
                 </div>
-                <div className="description d-flex flex-row align-items-center">
+                <div className="description">
                     <div className="content">
                         <div>A <span className="color1">Passionate Self-taught Developer</span> having an experience of building <span className="color1">WEB</span> with <span className="color1">HTML / CSS / JavaScript</span> and some other cool libraries. A developer who wants to expolore every <span className="color1">TECH STACK in TECHNOLOGY</span>.</div>
                     </div>
