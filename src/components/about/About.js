@@ -13,7 +13,7 @@ const About = () => {
                 </div>
                 <div className="description">
                     <div className="content">
-                        <div>A <span className="color1">Passionate Self-taught Developer</span> having an experience of building <span className="color1">WEB</span> with <span className="color1">HTML / CSS / JavaScript</span> and some other cool libraries. A developer who wants to expolore every <span className="color1">TECH STACK in TECHNOLOGY</span>.</div>
+                        <div>A <span className="color1">Passionate Self-taught Developer</span> having an experience of building <span className="color1">WEB</span> with <span className="color1">HTML / CSS / JavaScript</span> and some other cool libraries. A developer who wants to explore every <span className="color1">TECH STACK in TECHNOLOGY</span>.</div>
                     </div>
                     <div className="img-container">
                         <img src={banner_image} alt="About-img" loading="lazy" />
